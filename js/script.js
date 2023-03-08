@@ -61,22 +61,50 @@
 
 
 
-// console.log('arr' + ' - object');
-// console.log(4 + +"5");
+    // console.log('arr' + ' - object');
+    // console.log(4 + +"5");
 
-// let increment = 10,
-//     dicrement = 10;
+    // let increment = 10,
+    //     dicrement = 10;
 
-// increment++;
-// dicrement--;
+    // increment++;
+    // dicrement--;
 
-// console.log(increment++);
-// console.log(dicrement--);
+    // console.log(increment++);
+    // console.log(dicrement--);
 
-console.log(5%5);
-console.log(2**1 !== 4);
+    // console.log(5%5);
+    // console.log(2**1 !== 4);
 
-let isUserIdhas = false,
-    isUserPassHas = false;
+    // let isUserIdhas = false,
+    //     isUserPassHas = false;
 
-console.log(isUserIdhas && !isUserPassHas);
+    // console.log(isUserIdhas && !isUserPassHas);
+
+    // let number = 45;
+
+    // if (number > 45) {
+    //     console.log('More');
+    // } else if (number < 45) {
+    //     console.log('Less');
+    // } else {
+    //     console.log('Exactly');
+    // }
+
+//Тернарный оператор
+    // (number == 43) ? console.log('OK') : console.log('Wrong');
+
+
+const num = 100;
+
+switch (num) {
+    case 49: 
+        console.log('Error');
+        break;
+    case 200:
+        console.log('Good');
+        break;
+    default:
+        console.log('Ok');
+        break;
+}
